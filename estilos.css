@@ -1,0 +1,530 @@
+@font-face{
+    font-family: "DancingScrip";
+    src: url(../fonts/DancingScrip-regular.ttf);
+}
+@font-face{
+    font-family: "DancingScrip";
+    font-weight: bold;
+    src: url(../fonts/DancingScrip-bold.ttf);
+}
+*{
+box-sizing: border-box;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    margin: 0%;
+    font-size: 100%;
+    background: #9796f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/*-------------------------estilos base--------------------------------------------*/
+
+img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0%;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.container--flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.column{
+    width: 100%;
+}
+/*---------------------------------- estilos header-------------------------------------------*/
+
+.main-header{
+    width: 100%;
+}
+.log{
+    font-size: 2.5em;
+    color:rgb(247, 108, 216) ;  
+    text-align: left;
+    padding: 20px;
+    font-weight: 150;
+}
+.main-header__contacInfo__phone{
+    background: linear-gradient(to left, #fbc7d4, #9796f0);
+    color: rgb(238, 88, 213);
+    font-size: 1.5em;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+}
+.main-header__contactInfo__address{
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+}
+
+.main [class*="icon-"]:before{
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+/* -----------------------------estilos del menu--------------------------------*/
+
+.main-nav{
+    width: 100%;
+    position: relative;
+    z-index: 2000;
+    padding: 8px;
+}
+
+.main-header__contacInfo__phone a{
+    color: rgb(247, 108, 216);
+    text-decoration: none;
+}
+
+.icon-bars{
+display: block;
+color: azure;
+font-size: 1.5em;
+border: 1.5px solid white;
+border-radius: 3px;
+width: 40px;
+height: 40px;
+line-height: 42px;
+text-align: center;
+cursor: pointer;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon [class*="icon-"]{
+color: rgb(17, 8, 54);
+margin-left: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.5em;
+width: 35px;
+height: 35px;
+background: linear-gradient(to left, #fbc7d4, #9796f0);
+border-radius: 50%;
+}
+
+.social-icon__link{
+    text-decoration: none;
+}
+
+.menu {
+position: absolute;
+top: 40px;
+left: 0;
+width: 100%;
+background: rgb(0, 0, 0, .85);
+padding: 0;
+margin: 0;
+list-style: none;
+text-align: center;
+height: 0;
+overflow: hidden;
+transition: height .3s linear;
+}
+
+.menu__link{
+    display: block;
+    padding: 15px;
+    color: rgb(224, 57, 210);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.menu__link:hover{
+    background: linear-gradient(to left, #fbc7d4, #9796f0);;
+}
+
+.menu__link--select{
+    background: linear-gradient(to left, #fbc7d4, #9796f0);;
+}
+
+.mostrar{
+    height: 300px;
+}
+
+/* -----------------------------estilos del banner--------------------------------*/
+
+.banner{
+    margin-top: -90px;
+    position: relative;
+}
+
+.banner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 96.3%;
+    margin-top: 2%;
+    background: rgb(0, 0, 0, 0.2);
+    z-index: 1000;
+    top: 0;
+}
+
+.banner__img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+} 
+
+.banner__content{
+    width: 90%;
+    color: rgb(248, 242, 242);
+    text-align: center;
+    position: absolute;
+    z-index: 1500;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+/* -----------------------------estilos principales--------------------------------*/
+
+.group--color .container {
+    background: linear-gradient(to left, #fbc7d4, #9796f0);;
+    color: rgb(207, 69, 177);
+    padding: 10px;
+    text-align: center;
+} 
+
+.main__title {
+    margin: 15px 0;
+    font-size: 1.8em;
+    font-weight: 200%;
+}
+
+.main__txt {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.column__title{
+    font-size: 1.8em;
+}
+
+.column__tittle{
+    font-size: 2em;
+}
+
+.column__txt{
+    font-size: 1.8em;
+}
+
+.main__about__description .column:nth-child(2) {
+padding: 10px;
+}
+
+.btn {
+display: block;
+text-align: center;
+text-decoration: none;
+width: 120px;
+background:linear-gradient(to left, #fbc7d4, #9796f0); ;
+color: rgb(219, 68, 181);
+border-radius: 50%;
+padding: 10px;
+margin: 10px auto;
+font-size: 1.5em;
+}
+
+/* grupo de columnas e imagenes*/
+
+.today-special .column {
+margin-bottom: 50px;
+}
+
+.group__title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 10px;
+    color: rgb(219, 68, 181);
+}
+
+.today-special__img {
+    margin: auto;
+    max-width: 350px;
+    }
+
+.today-special__title {
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.today-special__price{
+    font-size: 1em;
+    color: rgb(156, 67, 126);
+    font-weight: bold;
+    text-align: center;
+}
+
+/* -----------------------------estilos del footer--------------------------------*/
+
+.main-footer {
+background: rgb(13, 12, 31);
+color: rgb(230, 245, 243);
+padding: 10px;
+padding-top: 40px;
+padding-bottom: 20px;
+font-size: .8em;
+
+}
+
+.copy{
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.main-footer [class*="icon-"]{
+    color: blanchedalmond;
+    text-decoration: none;   
+}
+
+.main-footer [class*="icon-"]:before {
+    position: relative;
+    top: 3px;
+    right: 5px;
+}
+
+/* -----------------------------estilos responsive a los 480px--------------------------------*/
+
+@media screen and (min-width:480px){
+    .log{
+    color:rgb(247, 108, 216) ;
+    }
+
+    .main-header__contactInfo {
+    text-align: right;
+    }
+    
+    .main-header__contacInfo__phone{
+     background: none;
+    }
+
+    .main-header__contactInfo__address{
+    color: rgb(233, 228, 222);
+    }
+    
+    .main-nav {
+    background: rgba(0, 0, 0, 0.65);
+    }
+
+    .main{
+    padding-bottom: 15px;
+    }
+
+    .banner{
+        margin-top: -400px;
+        z-index: -1000;
+
+    }
+
+    .banner__img{
+        height: 680px;
+    }
+
+    .banner__content{
+        font-size: 2em;
+    }
+
+    .main__about__description .column:nth-child(2) {
+    padding-left: 60px;
+    font-size: .8em;
+    }
+
+    .main__about__description .btn{
+        margin: 0;
+    }
+
+    .today-special .column{
+        padding: 10px;
+        width: 100%;
+    
+    }
+
+    .today-special__img{
+        height: 300px;
+        width: 300px;
+        object-fit: scale-down;
+        border: 5px solid rgb(58, 77, 75);
+    }
+
+    .main-footer .container--flex{
+        align-items: flex-start;
+        font-size: .8em;
+    }
+
+    .column--50{
+        width: 45.5%;
+    }
+
+    .column--50--25 {
+        width: 49.5%;
+
+    }
+
+    .column--33{
+        width: 32%;
+    }
+
+}
+
+/*-------------------------- pantalla a los 768px------------------------*/
+
+@media screen and (min-width:768px){
+    .main__title{
+        font-size: 2.2em;
+    }
+
+    .main__about__description{
+        margin-top: 30px;
+    }
+
+    .main__about__description .column--50 :nth-child(2){
+    font-size: 1.5em;
+    }
+
+    .main__about__description .column--50 :nth-child(2) .column__txt{
+    line-height: 30px;
+    }
+
+    .column--50--25{
+        width: 24.5%;
+    }
+
+    .column__title{
+        font-size: 1.8em;
+    }
+
+    .group__title{
+        font-size: 2.2em;
+    }
+
+/*-------------------------- pantalla a los 1.024px------------------------*/
+
+    @media screen and (min-width:1024px){
+
+        .container {
+        width: 1000px;
+        }
+
+        .log{
+            font-size: 2em;
+            padding: 0; 
+        }
+
+        .main-header__contactInfo{
+            text-align: right;
+        }
+
+        .main-header__contacInfo__phone,
+        .main-header__contactInfo__address {
+            padding-right: 0;
+            font-size: 1.15em;
+        }
+
+        .main-nav {
+            padding: 0;
+        }
+
+        .banner__content{
+            font-size: 2.3em;
+        }
+        .icon-bars{
+         display: none;
+        }
+
+        .menu{
+            position: static;
+            display: flex;
+            height: auto;
+            width: auto;
+        }
+
+        .menu__link{
+            padding: 15px;
+        }
+
+        .group--color .container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+        }
+
+        .main__title{
+        font-size: 2.2em;
+
+        }
+
+        .main__about__description .column--50:nth-child(2) .column__txt{
+        line-height: 60px;
+        }
+
+        .today-special__img {
+            margin: auto;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .today-special__title{
+            font-size: 1.8em;
+            text-align: center;
+        }
+
+        .today-special__price{
+            font-size: 1.3em;
+            text-align: center;
+        }
+
+        .main-footer{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    } 
+
+    /*-------------------------- pantalla a los 1.600px------------------------*/
+
+    @media screen and (min-width:1600px){
+        .container{
+            width: 1400px;
+        }
+
+        .banner__img{
+            height: 400px;
+        }
+
+        .main__about__description .column:nth-child(1) img {
+           width: 100%;
+           height: 350px;
+           object-fit: cover; 
+        }
+
+        .today-special__img{
+            height: 300px;
+        }
+    }
+}

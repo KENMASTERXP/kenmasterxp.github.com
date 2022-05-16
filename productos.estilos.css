@@ -1,0 +1,82 @@
+
+.gallery__img{
+    object-fit: auto;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    height: 250px;
+    width: 450px;
+    justify-content: center;
+    border: 5px solid rgb(58, 77, 75);
+    border-radius: 50%;
+}
+
+.stock-title{
+    font-size: 2em;
+    text-align: center;
+}
+
+.stock-price{
+    color: rgb(205, 33, 221);
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gallery__img:hover{
+    transform: scale(1.02);
+}
+
+.gallery__img--big{
+    text-align: center;
+}
+
+.gallery__img--small{
+    text-align: center;
+}
+
+.modal{
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000000;
+    display: none;
+}
+
+.modal__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+
+.modal__img{
+    width: 50%;
+}
+
+.modal__boton{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color:rgb(238, 88, 213);
+    cursor: pointer;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background:linear-gradient(to left, #fbc7d4, #9796f0);
+    font-size: 2em;
+    text-align: center;
+    border-radius: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.modal--open{
+display: block;
+}
+
+
+

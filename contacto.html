@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elements|contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="contacto.estilos.css">
+    <link rel="stylesheet" href="css/font.css">
+</head>
+
+<body>    
+
+    <header class="main-header">
+        <div class="container container--flex">
+    <div class="logo-container column column--50"><h1 class="log">Elements: Alfarería y Orquídeas</h1>
+    <div class="main-header__contacInfo column column--50">
+        <p class="main-header__contacInfo__phone">
+            <span class="icon-whatsapp">
+                <a href="https://api.whatsapp.com/send?phone=573135825660">(+57) 3135825660</a></span>
+            </span>
+            <p class="main-header__contactInfo__address">
+                <span class="icon-location"> Pasto-Nariño</span>
+            </p>
+        </p>
+        </div>
+        </header>   
+        <nav class="main-nav">
+            <div class="container container--flex">
+                <span class="icon-bars" id="btnmenu"></span>
+            <ul class="menu" id="menu"> 
+                <li class="menu__items"><a href="/" class="menu__link">Inicio</a></li>
+                <li class="menu__items"><a href="nosotros.html" class="menu__link ">Nosotros</a></li>
+                <li class="menu__items"><a href="productos.html" class="menu__link">Productos</a></li>
+                <li class="menu__items"><a href="contacto.html" class="menu__link menu__link--select ">Contacto</a></li>
+                </ul>
+                <div class="social-icon">
+                    <a href="" class="social-icon__link"> <span class="icon-facebook-square"></span></a>
+                    <a href="https://twitter.com/Elementsalfa1" class="social-icon__link"> <span class="icon-twitter"></span></a>
+                    <a href="" class="social-icon__link"> <span class="icon-envelope-o"></span></a>
+                </div>
+            </div>
+        </nav>
+        <section class="banner">
+            ><img src="img/laguna cocha2.png" alt="" class="banner__img">
+            <div class="banner__content"> 
+                Envianos tu mensaje!
+            </div>
+        </section>
+
+
+        <main class="main">    
+         <section class="group contact">
+           <h2 class="group__title">Contáctenos:</h2>
+           <div class="container container--flex">
+               <div class="contact-information column column--50">
+                   <h3 class="column__title">Información de contacto</h3>
+                   <p class="column__txt">La información de los contactos solo están autorizadas en esta página web y las redes sociales enlazadas en esta misma, no tenemos intermediarios</p>
+                   <p class="column__txt"> <span class="icon-whatsapp"></span><a href="https://api.whatsapp.com/send?phone=573135825660">Whatsapp: 3135825660</a> </p>
+                   <p class="column__txt"><span class="icon-mobile"></span>Mobil: 3135825660</p>
+                   <p class="column__txt"><span class="icon-location"></span>Pasto-Nariño</p>
+                   <p class="column__txt"><span class="icon-envelope-o"></span> <a href="https://mail.google.com">elementsalfareriayorquideas@gmail.com</a> </p>
+                   <div class="social-icon">
+                    <a href="" class="social-icon__link"> <span class="icon-facebook-square"></span></a>
+                    <a href="" class="social-icon__link"> <span class="icon-twitter"></span></a>
+                    <a href="" class="social-icon__link"> <span class="icon-instagram"></span></a>
+                   </div>
+                </div>
+                <form action="enviar-prueba.php" method="post" class="formulario column column--50" >
+                 <label class="formulario__label">Nombre completo:</label>
+                 <input type="text" class="formulario__input-txt" name="nombre">
+                 <label class="formulario__label">Correo electrónico:</label>
+                 <input type="text" class="formulario__input-txt" name="correo">
+                 <label class="formulario__label">Número de Celular:</label>
+                 <input type="text" class="formulario__input-txt" name="celular">
+                 <label class="formulario__label">Mensaje:</label>
+                 <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
+                 <input type="submit" class="btn formulario__btn" value="Enviar">
+                </form>
+            </div>
+         </section>        
+            </main>
+
+        
+            
+
+
+
+
+
+
+        
+        <footer class="main-footer">
+            <div class="container container--flex">
+        
+        <div class="column column--33">
+            <h2 class="column__title">Porque elegir nuestros productos?</h2>
+                <p class="column__txt">Nuestros productos son de alta calidad elaborados con amor artesanalmente</p>
+            
+        </div>
+        <div class="column column--33">
+            <h2 class="column__title">Contactanos:</h2>
+                <p class="column__txt">Pasto-Nariño</p>
+                <p class="column__txt"><a href="https://api.whatsapp.com/send?phone=573135825660" class="icon-mobile">  Mobil: (+57) 313 582 5660</a></p></p>
+                <p class="column__txt"><a href="https://mail.google.com" class="icon-envelope-o"> elementsalfareriayorquideas@gmail.com</a></p>
+            
+        </div>
+        <div class="column column--33">
+            <h2 class="column__title">Siguenos en nuestras redes sociales:</h2>
+                <p class="column__txt"> <a href="" class="icon-facebook-square">Facebook</a></p>
+                <p class="column__txt"><a href="https://twitter.com/Elementsalfa1" class="icon-twitter">Twiter</a></p>
+                <p class="column__txt"><a href="" class="icon-instagram">Instagram</a></p>
+             
+        </div>
+        <p class="copy">® 2021 Elements: Alfarería y Orquídeas Empresa Nariñense | todos los derechos reservados by:Ken. </p>
+            </div>
+        </footer>
+    
+        <script src="menu.js">
+        </script>
+        <script src="modal.js">
+        </script>   
+</body>
+</html>
