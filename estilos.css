@@ -53,14 +53,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .log{
     font-size: 2.5em;
-    color:rgb(247, 108, 216) ;  
+    color:rgb(82, 22, 67) ;  
     text-align: left;
     padding: 20px;
     font-weight: 150;
 }
 .main-header__contacInfo__phone{
     background: linear-gradient(to left, #fbc7d4, #9796f0);
-    color: rgb(238, 88, 213);
+    color: rgb(99, 26, 87);
     font-size: 1.5em;
     margin: 0 auto;
     padding: 10px;
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-header__contacInfo__phone a{
-    color: rgb(247, 108, 216);
+    color: rgb(122, 33, 103);
     text-decoration: none;
 }
 
@@ -203,7 +203,7 @@ transition: height .3s linear;
 
 .group--color .container {
     background: linear-gradient(to left, #fbc7d4, #9796f0);;
-    color: rgb(207, 69, 177);
+    color: rgb(151, 44, 128);
     padding: 10px;
     text-align: center;
 } 
