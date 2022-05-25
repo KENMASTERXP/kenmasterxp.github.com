@@ -73,6 +73,24 @@ text-decoration: none;
     
 }
 
+@media  screen and (min-width:320px) {
+    .contact-information p{
+        font-size: 1em;
+    }
+
+    .contact-information{
+        margin-bottom: none;
+    }
+
+    .main-footer .container--flex{
+        align-items: flex-start;
+    }
+
+    .column--50{
+        width: 20%;
+    }
+
+}
 @media  screen and (min-width:480px) {
     .contact-information p{
         font-size: 1.3em;
