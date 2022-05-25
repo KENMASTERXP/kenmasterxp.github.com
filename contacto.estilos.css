@@ -75,7 +75,7 @@ text-decoration: none;
 
 @media  screen and (min-width:320px) {
     .contact-information p{
-        font-size: 1em;
+        font-size: .8em;
     }
 
     .contact-information{
@@ -87,7 +87,7 @@ text-decoration: none;
     }
 
     .column--50{
-        width: 25%;
+        width: 10%;
     }
 
 }
