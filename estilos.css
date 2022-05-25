@@ -316,15 +316,17 @@ font-size: .8em;
 @media screen and (min-width:320px){
     .log{
     color:rgb(145, 51, 124) ;
-    
+    font-size: .8em;
     }
 
     .main-header__contactInfo {
     text-align: right;
+    font-size: .8em;
     }
     
     .main-header__contacInfo__phone{
      background: none;
+     font-size: .8em;
     }
 
     .main-header__contactInfo__address{
